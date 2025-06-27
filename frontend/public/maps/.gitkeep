@@ -1,0 +1,2 @@
+# This file ensures the maps directory is preserved in git
+# The actual map tiles will be downloaded by the tile-downloader script 
