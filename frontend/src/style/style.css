@@ -1,0 +1,187 @@
+
+body{
+    background-color:#1a1a1a32 ;
+}
+.container{
+    background-color: #1a1a1a43 ;
+}
+
+.haeder{
+    background-color: #637992;
+    width: 100vw;
+    max-height: 40px;
+  
+}
+.phaeder{
+    font-size: 11px;
+}
+h1{
+    color: #f8f9fa;
+}
+p{
+    color: #f8f9fa;
+}
+
+
+
+.divMapp {
+    border: 10px solid #292a2b; 
+  height: 670px;
+
+  
+}
+
+
+
+.divControl{
+ max-height: 610px;
+}
+
+
+
+
+.poligonList {
+    flex-grow: 1;
+    overflow-y: auto; 
+    max-height: calc(100% - 100px); 
+        padding-right: 5px; 
+    }
+
+
+
+/* ControlPanel */
+
+.collapsed{
+    background-color: #757b80cc;
+}
+.textNameP{
+    color:  rgb(233, 230, 227);
+}
+.controlColor {
+    border: 1px solid #495057;
+}
+
+.section-title-override {
+    font-size: 1.3em;
+}
+
+.panel-button {
+    border-radius: 3px;
+}
+
+.status-סינון {
+    background-color: #cc2c21 ;
+    color: #f8f9fa ;
+}
+
+.status-השתקה {
+    background-color: #5d646b !important;
+    color: #e9ecef !important;
+}
+
+.status-התרעה {
+    background-color: #1a41b5 !important;
+    color: #f8f9fa !important;
+}
+
+
+.polygon-item-override {
+    border: 1px solid #495057 !important;
+}
+
+.polygon-list-override::-webkit-scrollbar {
+    width: 8px;
+}
+
+.polygon-list-override::-webkit-scrollbar-track {
+    background: #343a40;
+    border-radius: 4px;
+}
+
+.polygon-list-override::-webkit-scrollbar-thumb {
+    background: #6c757d;
+    border-radius: 4px;
+}
+
+.polygon-list-override::-webkit-scrollbar-thumb:hover {
+    background: #adb5bd;
+}
+
+
+
+
+.drawing-cursor {
+  cursor: url('https://cdn-icons-png.flaticon.com/128/84/84380.png') 0 24, auto;
+}
+
+
+.leaflet-div-icon.leaflet-editing-icon {
+  display: none !important;
+}
+
+
+
+
+.full-screen-container {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+
+.full-screen-container{
+  /* height: 100%; */
+  width: 100%;
+  position: absolute;
+  top: 10; left: 0;
+  /* z-index: 1;  */
+}
+
+
+.burger-button {
+  /* position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 3; */
+  font-size: 18px;
+  background: rgba(75, 74, 74, 0.451);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.trash-button{
+      font-size: 18px;
+  background: rgba(201, 197, 197, 0.777);
+  border: none;
+  /* padding: 8px 12px; */
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.control-panel-sidebar {
+  position: absolute;
+  top: 10;
+  right: -400px; 
+  width: 400px;
+  height: 665px;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.3);
+  z-index: 2;
+  transition: right 0.3s ease-in-out;
+  overflow-y: auto;
+}
+
+.control-panel-sidebar.open {
+  right: 0; 
+
+}
